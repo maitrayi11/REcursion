@@ -14,7 +14,7 @@ vector<string> kpc(string str)
      string res=str.substr(1);
      vector<string> rem=kpc(res);
      vector<string> ans;
-     string s=codes[ch -'0'];       //changing string to int
+     string s=codes[ch -'0'];       //changing char to int
      for(int i=0;i<s.length();i++)
      {
           char c=s[i];
