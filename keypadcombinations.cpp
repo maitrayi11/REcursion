@@ -21,6 +21,7 @@ vector<string> kpc(string str)
           for(int j=0;j<rem.size();j++)
           ans.push_back(rem[j]+c);
      }
+     return ans;
 }
 int main()
 {
